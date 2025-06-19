@@ -1,0 +1,29 @@
+
+GIT COMMANDS:
+git config - for configuration of aliases
+Git branch - for checking of existing branches
+git checkout -b *branch name* - create and move to new branch
+git push (-u) origin *branch name* - pushing the branch to GIT, 
+-u is used for future git pull or git push commands to be related to same variable
+git add 'filename' / . - used for staging of file/s or all changes
+git commit - will popup the window, write commit details, save and close
+git commit -m "Your message here" - for automatical commit details
+
+
+Steps:
+1. git add - what I need to put into staging area
+2. git commit (with message)
+3. git push - for actually sending new data
+
+TERMINAL commands:
+Touch xxx.txt - for creation of file
+mkdir -p src/components - for creation of folder 
+touch src/components/Button.jsx - for creation of folder and file
+pipreqs folder_name - for automatic creation of requirements
+
+Powershell commands:
+https://learn.microsoft.com/ru-ru/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.5
+https://learn.microsoft.com/ru-ru/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.5
+ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine - change of Execution ExecutionPolicy
+
+-Scope - where (process, user, machine, etc)
